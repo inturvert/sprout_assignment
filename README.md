@@ -143,6 +143,15 @@ npm run dev
 
 Vite will print a local address, normally `http://localhost:5173`. Open the address shown in the terminal. Keep this terminal open while using the application.
 
+You can also use the included launch scripts after Node.js has been installed. On Windows, double-click `run.bat`. On Linux, run:
+
+```bash
+chmod +x run.sh
+./run.sh
+```
+
+The scripts install dependencies if `node_modules/` is missing and then start the Vite development server.
+
 The evaluator navigation provides desktop homepage, mobile homepage preview, five-screen onboarding, and design-rationale views.
 
 ### 5. Create and preview a production build
